@@ -1,0 +1,74 @@
+/*
+Tutorial Name: Modernize Your Site: Building a YouTube Video Background 
+Author: Samuel Dalusung
+*/
+/* GENERAL STYLES
+================================================== */
+html {
+    height:100%
+}
+
+body {
+    font:15px/23px 'Raleway',sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:100%
+}
+
+
+
+/* BIG VIDEO BACKGROUND
+================================================== */
+.big-background {
+    z-index:550;
+    text-align:center;
+    height:100%;
+    min-height:100%;
+    position:relative;
+    overflow:hidden
+}
+
+.big-background .big-background-container {
+    width:830px;
+    max-width:100%;
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)
+}
+
+.big-background-default-image {
+    background:url(../img/sunset.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    z-index:0;
+    backface-visibility:hidden
+}
+
+
+
+/* SMALL VIDEO BACKGROUND 
+================================================== */
+.small-background-section {
+    font-family:'Raleway',sans-serif;
+    padding:100px 0;
+    position:relative;
+    width:100%;
+    overflow:hidden
+}
+
+.small-background-container {
+    position:relative;
+    text-align:center
+}
