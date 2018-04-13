@@ -90,8 +90,8 @@ googleAnalytics = ""
 		headline = "I am also available for your livestreaming needs"
 
 		[params.aside.button]
-			text = "Find out more"
-			link = "https://brandonkalinowski.com"
+			#text = "Find out more"
+			#link = "https://brandonkalinowski.com"
 
 	# Contact section
 	[params.contact]
