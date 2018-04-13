@@ -1,5 +1,5 @@
 /*
-Tutorial Name: Modernize Your Site: Building a YouTube Video Background 
+Tutorial Name: Modernize Your Site: Building a YouTube Video Background
 Author: Samuel Dalusung
 */
 /* GENERAL STYLES
@@ -46,7 +46,7 @@ body {
 }
 
 .big-background-default-image {
-    background:url(../img/sunset.jpg);
+    background:url(img/HeroBG.jpg);
     background-repeat:no-repeat;
     background-position:center center;
     background-size:cover;
@@ -58,7 +58,7 @@ body {
 
 
 
-/* SMALL VIDEO BACKGROUND 
+/* SMALL VIDEO BACKGROUND
 ================================================== */
 .small-background-section {
     font-family:'Raleway',sans-serif;
