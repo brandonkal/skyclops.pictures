@@ -24,7 +24,8 @@ disableKinds = ["taxonomy","taxonomyTerm", "RSS"]
 	description = "Skyclops Pictures provides premiere aerial video to clients of all sizes. Using drones, Skyclops Pictures is able to elevate your next project. All pilots are FAA certified."
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "favicon.png"
+	faviconSVG = "favicon.svg"
 
 
 	# Navigation
