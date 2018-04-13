@@ -2,7 +2,7 @@ baseURL = "https://www.skyclops.pictures/"
 languageCode = "en-us"
 title = "Skyclops Pictures - Premiere Aerial Video"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+disableKinds = ["taxonomy","taxonomyTerm", "RSS"]
 
 [params]
 
