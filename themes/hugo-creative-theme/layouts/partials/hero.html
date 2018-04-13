@@ -1,17 +1,10 @@
 {{ "<!-- HEADER -->" | safeHTML }}
-
-
 <header>
-
-
-
-
-   <!--add header class for bg video=-->
-    <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=-zN_BUUXoic',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1, showControls:false, loop:true, quality:'hd720'}"></a>
+   <!--add header class for bg video=  added mb ytplayer here-->
+    <a id="bgndVideo" class="player mb_YTPlayer isMuted" data-property="{videoURL:'https://www.youtube.com/watch?v=-zN_BUUXoic',containment:'body',autoPlay:true, mute:true, startAt:14, opacity:1, showControls:false, loop:true, quality:'hd720'}" style="display: none;"></a>
   <!--insert background video-->
 
     <div class="header-content">
-
 
         <div class="header-content-inner">
             {{ with .Site.Params.hero.slogan }}
@@ -29,6 +22,5 @@
             {{ end }}
         </div>
     </div>
-
 
 </header>
