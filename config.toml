@@ -49,7 +49,7 @@ googleAnalytics = ""
 	# About section
 	[params.about]
 		headline    = "FAA Certified Pilots"
-		description = "Don't hire a pilot that is not licensed! Skyclops Pictures pilots are professionally licensed and can legally operate drones for compensation."
+		description = "Don't hire a pilot that is not licensed! Skyclops Pictures pilots are professionally licensed and can legally operate drones for compensation. A professional pilot will ensure a safe operation for everyone involved."
 		buttonText  = "Get started!"
 
 
@@ -60,22 +60,22 @@ googleAnalytics = ""
         [[params.services.list]]
             icon = "fa-video-camera"
             title = "High Quality Video"
-            description = "We have an eye for Cinematography, meaning shots are carefully crafted for maximum impact. This is our art!"
+            description = "I have an eye for Cinematography, meaning shots are carefully crafted for maximum impact. This is my art!"
 
         [[params.services.list]]
 			icon = "fa-plane"
 			title = "Aerial Mapping"
-			description = "We fly more than just quadcopters. Using our custom-built fixed wing autonomous drone, we can fly longer missions for search and rescue and aerial mapping!"
+			description = "I fly more than just quadcopters. Using my custom-built fixed wing autonomous drone, I can fly longer missions for search and rescue and aerial mapping!"
 
 		[[params.services.list]]
             icon = "fa-wifi"
             title = "Licensed by the FCC"
-            description = "We use powerful radios. That means we can fly farther and get the shot you need"
+            description = "I use powerful radios. That means we can fly farther and get the shot you need!"
 
         [[params.services.list]]
             icon = "fa-diamond"
             title = "Diamond Guarantee"
-            description = "We are so confident that you will be satisfied with the result that we will refund your order if the video does not meet your expectations!"
+            description = "I am so confident that you will be satisfied with the result that I will refund your order if the video does not meet your expectations!"
 
 
     # Portfolio modals
@@ -96,7 +96,7 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Looking to see how Skyclops Pictures can elevate your next project? Drop us a line and we will get back to you as soon as possible!"
+		description = "Looking to see how Skyclops Pictures can elevate your next project? Drop me a line and I will get back to you as soon as possible! I look forward to hearing from you!"
 		# Form fields
 		name = "Your Name"
 		email = "Your Email"
