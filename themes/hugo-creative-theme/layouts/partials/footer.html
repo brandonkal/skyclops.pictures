@@ -1,0 +1,11 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+
+<footer class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            {{ with .Site.Params.footer.headline }}<h2>{{ . }}</h2>{{ end }}
+            <p class="copyright">{{ with .Site.Params.footer.copyright }}{{ . }}{{ else }}All content copyright {{now.Format "2006"}} {{ end }}</p>
+       </div>
+        </div>
+    </div>
+</footer>
