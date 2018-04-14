@@ -1,4 +1,4 @@
-baseURL = "https://www.skyclops.pictures/"
+baseURL = "//www.skyclops.pictures/"
 languageCode = "en-us"
 title = "Skyclops Pictures - Premiere Aerial Video"
 theme = "hugo-creative-theme"
@@ -22,6 +22,7 @@ disableKinds = ["taxonomy","taxonomyTerm", "RSS"]
 	# information about you and your website.
 	name = "Skyclops Pictures"
 	description = "Skyclops Pictures provides premiere aerial video to clients of all sizes. Using drones, Skyclops Pictures is able to elevate your next project. All pilots are FAA certified."
+	og_image = "/img/portfolio/3.jpg"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
