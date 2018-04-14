@@ -51,7 +51,7 @@ disableKinds = ["taxonomy","taxonomyTerm", "RSS"]
 	# About section
 	[params.about]
 		headline    = "FAA Certified Pilots"
-		description = "Don't hire a pilot that is not licensed! Skyclops Pictures pilots are professionally licensed and can legally operate drones for compensation. A professional pilot will ensure a safe operation for everyone involved."
+		description = "Don't hire a pilot that is not licensed! Skyclops Pictures pilots are professionally licensed and can legally operate drones for compensation.  A professional pilot will ensure a safe operation for everyone involved."
 		buttonText  = "Get started!"
 
 
@@ -67,7 +67,7 @@ disableKinds = ["taxonomy","taxonomyTerm", "RSS"]
         [[params.services.list]]
 			icon = "fa-plane"
 			title = "Aerial Mapping"
-			description = "I fly more than just quadcopters. Using my custom-built fixed wing autonomous drone, I can fly longer missions for search and rescue and aerial mapping!"
+			description = "I fly more than just quadcopters. Using my custom-built fixed-wing autonomous drone, I can fly longer missions for search and rescue and aerial mapping!"
 
 		[[params.services.list]]
             icon = "fa-wifi"
